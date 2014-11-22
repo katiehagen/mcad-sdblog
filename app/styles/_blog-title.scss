@@ -1,5 +1,10 @@
 // blog-title.scss
 
 .blog-title {
-  background-color: yellow;
+  max-width: 12em;
+  line-height: 1em;
+  font-size: 1.9em;
+  .logo-sdo {
+    color: $color-logo-sdo;
+  }
 }

@@ -1,7 +1,10 @@
 // main.scss
 
 @import "variables";
+@import "mixins";
 @import "globals";
+
+//modules
 @import "article-block";
 @import "blog-title";
 @import "css-module";
