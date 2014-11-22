@@ -1,6 +1,8 @@
+// globals.scss
+
 body {
   background: #fff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: $font-stack;
   color: #333;
 }
 
