@@ -1,14 +1,19 @@
 // social-media.scss
 
-ul {
+.social-media {
   @include clearfix;
   margin: 0;
   padding: 0;
   list-style-type: none;
-}
 
-li {
-  float: left;
-  margin-right: 1em;
-  padding: 0 0.5em;
+  li {
+    float: left;
+    margin-right: 0.125em;
+    padding: 0 0.5em;
+    }
+
+  a {
+    display: inline-block;
+    color: $black;
   }
+}
