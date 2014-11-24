@@ -1,0 +1,38 @@
+// utility-nav.scss
+
+.utility-nav {
+  @include clearfix;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  li {
+  float: left;
+  padding: 0 1em 0 0.5em;
+  margin-right: 2em;
+  line-height: 0.85em;
+  width: 6em;
+  }
+
+  a {
+  color: $black;
+  opacity: 0.4;
+  font-weight: 500;
+  font-size: .75em;
+  text-decoration: none;
+  display: inline-block;
+  &:hover {
+    opacity: 1;
+    }
+  }
+
+ .brochure {
+  background-image: url(http://mcadsustainabledesign.james.mn/wp-content/themes/theme_sdonew/img/sdo_broch.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  }
+
+  .line {
+  // not sure how to style the lines
+  }
+}
