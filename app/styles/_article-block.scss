@@ -14,31 +14,34 @@
   }
 
   &.block-small {
-    width: 35%;
+    width: 23%;
   }
 
   &.block-medium {
-    width: 40%;
+    width: 35%;
   }
 
   &.block-large {
-    width: 50%;
+    width: 45%;
   }
 
   h4{
     margin: 0;
     font-weight: normal;
+    font-size: .9em;
   }
 
   time {
     margin: 0;
     float: right;
     font-weight: normal;
+    font-size: .9em;
   }
 
   h2{
     line-height: 1;
     margin: 0.5;
-    max-width: 60%;
+    max-width: 75%;
+    font-size: 1.7em;
   }
 }

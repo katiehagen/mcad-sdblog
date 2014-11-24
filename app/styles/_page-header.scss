@@ -4,7 +4,8 @@
   @include clearfix;
   width: 100%;
   position: relative;
-  margin-bottom: 3em;
+  margin-bottom: 2em;
+  margin-left: .5em;
 
   .utility-logo-group {
   width: 34%;
@@ -25,5 +26,6 @@
 
   .main-nav {
   float: right;
+  margin-right: 0.5em;
   }
 }
